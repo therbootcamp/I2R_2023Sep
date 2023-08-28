@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     The R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2022Oct/'>
+  <a href='https://therbootcamp.github.io/I2R_2023Sep/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "Oktober 2022"
+date: "September 2023"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | Oktober 2022
+      Einführung in die moderne Datenanalyse mit R | September 2023
       </font>
     </a>
     </span>
@@ -81,9 +81,9 @@ Ihr nun die Grundlagen von R!
 
 ---
 
-# R kann viel mehr
-
 .pull-left5[
+
+# R kann viel mehr
 
 <font size = 6>
 
@@ -101,7 +101,8 @@ Ihr nun die Grundlagen von R!
 
 
 .pull-right5[
-<p align="center"><img border="0" alt="W3Schools" src="https://www.oreilly.com/library/view/the-art-of/9781593273842/httpatomoreillycomsourcenostarchimages915868.png.jpg" width="400px"></p>
+<br><br>
+<p align="center"><img border="0" alt="W3Schools" src="https://m.media-amazon.com/images/I/81CHR4QSLTL.jpg" height="480px"></p>
 ]
 
 
@@ -118,14 +119,34 @@ Das [`tidyverse`](https://www.tidyverse.org/) ist im Kern eine Sammlung hoch-per
 6. `tibble` für moderne `data.frame`s.
 <br><br>
 
-```{r, out.height = "200px", echo = F}
-knitr::include_graphics("http://d33wubrfki0l68.cloudfront.net/0ab849ed51b0b866ef6895c253d3899f4926d397/dbf0f/images/hex-ggplot2.png")
-knitr::include_graphics("http://d33wubrfki0l68.cloudfront.net/071952491ec4a6a532a3f70ecfa2507af4d341f9/c167c/images/hex-dplyr.png")
-knitr::include_graphics("http://d33wubrfki0l68.cloudfront.net/5f8c22ec53a1ac61684f3e8d59c623d09227d6b9/b15de/images/hex-tidyr.png")
-knitr::include_graphics("http://d33wubrfki0l68.cloudfront.net/66d3133b4a19949d0b9ddb95fc48da074b69fb07/7dfb6/images/hex-readr.png")
-knitr::include_graphics("http://d33wubrfki0l68.cloudfront.net/9221ddead578362bd17bafae5b85935334984429/37a68/images/hex-purrr.png")
-knitr::include_graphics("http://d33wubrfki0l68.cloudfront.net/f55c43407ae8944b985e2547fe868e5e2b3f9621/720bb/images/hex-tibble.png")
-```
+<table class="tg"  style="cellspacing:0; cellpadding:0; border:none;">
+<tr valign="top">
+  <col width="16%">
+  <col width="16%">
+  <col width="16%">
+  <col width="16%">
+  <col width="16%">
+  <col width="16%">
+  <td>
+  <img src="image/PNG/ggplot2.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/dplyr.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/tidyr.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/readr.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/purrr.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/tibble.png" height = 200px>
+  </td>
+</tr>
+</table>
 
 ---
 
@@ -429,14 +450,31 @@ Das Umfeld des [`tidyverse`](https://www.tidyverse.org/) beinhaltet eine Sammlun
 6. `tidytext` für Textverarbeitung.
 <br><br>
 
-```{r, out.height = "200px", echo = F}
-knitr::include_graphics("https://github.com/rstudio/hex-stickers/raw/master/PNG/rvest.png")
-knitr::include_graphics("https://github.com/rstudio/hex-stickers/raw/master/PNG/haven.png")
-knitr::include_graphics("https://github.com/rstudio/hex-stickers/raw/master/PNG/readxl.png")
-knitr::include_graphics("https://github.com/rstudio/hex-stickers/raw/master/PNG/lubridate.png")
-knitr::include_graphics("https://pbs.twimg.com/media/DeacLnGU0AAlmS9.png")
-```
 
+<table class="tg" align="left" style="cellspacing:0; cellpadding:0; border:none;" width = "90%">
+<tr valign="top">
+  <col width="16%">
+  <col width="16%">
+  <col width="16%">
+  <col width="16%">
+  <col width="16%">
+  <td>
+  <img src="image/PNG/rvest.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/haven.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/readxl.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/lubridate.png" height = 200px>
+  </td>
+  <td>
+  <img src="https://juliasilge.github.io/tidytext/reference/figures/tidytext.png" height = 200px>
+  </td>
+</tr>
+</table>
 
 ---
 
@@ -449,8 +487,8 @@ library(xml2) ; library(rvest) ; library(tibble)
 
 ```{r, message=F}
 # Tabelle laden von Wikipedia (Pakete nicht vergessen)
-read_html("https://en.wikipedia.org/wiki/R_(programming_language)") %>%
-  html_node(xpath = '//*[@id="mw-content-text"]/div[1]/table[2]') %>%
+read_html("https://de.wikipedia.org/wiki/R_(Programmiersprache)") %>%
+  html_node(xpath = '//*[@id="mw-content-text"]/div[1]/table[3]') %>%
   html_table() %>% as_tibble()
 ```
 
@@ -467,7 +505,7 @@ library(dplyr) ; library(stringr)
 
 # Wörter zählen
 counts <- 
-  read_html(".../R_(programming_language)") %>%
+  read_html(".../R_(Programmiersprache)") %>%
   html_text() %>%
   tibble() %>%
   unnest_tokens(w, ".") %>%
@@ -491,12 +529,12 @@ library(dplyr) ; library(tidytext) ; library(wordcloud) ; library(stringr)
 
 # Wörter zählen
 counts <- 
-  read_html("https://en.wikipedia.org/wiki/R_(programming_language)") %>%
+  read_html("https://de.wikipedia.org/wiki/R_(Programmiersprache)") %>%
   html_text() %>%
   tibble() %>%
   unnest_tokens(word, ".") %>%
   filter(!str_detect(word, '[:digit:]')) %>%
-  anti_join(stop_words %>% bind_rows(tibble(word = 'retrieved', lexicon = ''))) %>%
+  anti_join(get_stopwords("de") %>% bind_rows(tibble(word = 'retrieved', lexicon = ''))) %>%
   count(word, sort = TRUE) %>%
   top_n(100) 
 
@@ -622,12 +660,24 @@ R und RStudio bieten auch exzellente Werkzeuge zum erstellen von <high>Berichten
 
 <br><br>
 
-```{r, out.height = "200px", echo = F}
-knitr::include_graphics("https://github.com/rstudio/hex-stickers/raw/master/PNG/rmarkdown.png")
-knitr::include_graphics("https://github.com/rstudio/hex-stickers/raw/master/PNG/xaringan.png")
-knitr::include_graphics("https://github.com/rstudio/hex-stickers/raw/master/PNG/shiny.png")
-```
 
+<table class="tg" align="left" style="cellspacing:0; cellpadding:0; border:none;" width = "55%">
+<tr valign="top">
+  <col width="33%">
+  <col width="33%">
+  <col width="33%">
+  <td>
+  <img src="image/PNG/rmarkdown.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/xaringan.png" height = 200px>
+  </td>
+  <td>
+  <img src="image/PNG/shiny.png" height = 200px>
+  </td>
+  <td>
+</tr>
+</table>
 
 
 ---
@@ -745,84 +795,6 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
 
 ---
 
-.pull-left4[
-
-# Webseiten
-
-Das Netz ist vll. der beste Ort für Informationen über R.
-
-<font size = 4><i>Beginnt eure Suche mit:</i></font>
-
-[Google](www.google.com). Stellt sicher, dass ihr *R* oder *Rproject* mit in eurer Suche habt. 
-
-<br>
-<font size = 4><i>Meistens werdet ihr dann weitergeleitet zu:</i></font>
-
-[R-bloggers](www.r-bloggers.com) informiert euch über die neusten R Entwicklungen. Meldet euch für den Newsletter an.
-
-[Stackoverflow](https://stackoverflow.com/questions/tagged/r) ist eine Seite für R Probleme und Lösungen. Versucht selbst mal ein Problem zu posten. Oft bekommt ihr erstaunlich schnell Antwort.
-
-]
-
-.pull-right5[
-<p align="left" style="padding: 0 0px"><br><br><br><br><br><br><br><br><br>
-    <a href="https://www.google.com/"><img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/google.png" height="100"></a><br><br><br2>
-    <a href="https://www.r-bloggers.com/"><img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/rbloggers.png" height="105" style="margin-bottom:10px"></a><br>
-  <a href="https://stackoverflow.com/"><img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/stackoverflow.png" height="105"></a>
-</p>
-]
-
----
-
-# Hilfe & Consulting
-
-<table class="tg"  style="cellspacing:0; cellpadding:0; border:none">
-  <col width="22%">
-  <col width="22%">
-  <col width="22%">
-  <tr>
-    <th class="tg-yw4l" valign='top'>
-    <p align="center"><br>
-    <a href="www.dirkwulff.org"><img border="0" alt="W3Schools" src="https://therbootcamp.github.io/img/team/1.png" height="230" style="border-radius:50%"></a><br>
-    <p align="center">
-    <font size = 5>Dr. Dirk Wulff</font><br><br>
-    <a href="www.dirkwulff.org"><b>dirkwulff.org</b></a><br>
-    <a href="https://github.com/dwulff"><b>github.com/dwulff</b></a><br>
-    <font size=4><i>packages: </i></font> 
-    <a href="https://cran.r-project.org/web/packages/cstab/index.html"><b>cstab</b></a>, <a href="https://github.com/dwulff/text2sdg"><b>text2sdg</b></a>, <br>
-    <a href="https://cran.r-project.org/web/packages/mousetrap/index.html"><b>mousetrap</b></a>, <a href="https://cran.r-project.org/web/packages/memnet/index.html"><b>memnet</b>, <a href="https://github.com/dwulff/choicepp"><b>choicepp</b>
-    </p>  
-  </th>
-  
-  <th class="tg-yw4l" valign='top'><p align="center"><br>
-    <a href="https://psychologie.unibas.ch/en/persons/markus-steiner/about-me/"><img border="0" alt="W3Schools" src="https://therbootcamp.github.io/img/team/2.png" height="230" style="border-radius:50%"></a><br>
-    <p align="center">
-    <font size = 5>Markus Steiner</font><br><br>
-    <a href="https://github.com/mdsteiner"><b>github.com/mdsteiner</b></a><br>
-    <font size=4><i>packages: </i></font> 
-    <a href="https://github.com/mdsteiner/ShinyPsych"><b>ShinyPsych</b></a>, <br>
-    <a href="https://github.com/mdsteiner/EFAdiff"><b>EFAdiff</b></a> <br><br>
-    </p>
-  </th>
-  
-  <th class="tg-yw4l" valign='top'>
-    <p align="center">
-    <p align="center"><br>
-    <a href="https://www.schulte-mecklenbeck.com/"><img border="0" alt="W3Schools" src="https://therbootcamp.github.io/img/team/3.png" height="230" style="border-radius:50%"></a><br>
-    <p align="center">
-    <font size = 5>Dr. Michael Schulte-<br>Mecklenbeck</font><br><br>
-    <a href="www.schulte-mecklenbeck.com"><b>schulte-mecklenbeck.com</b></a><br>
-    <a href="https://github.com/schultem"><b>github.com/schultem</b></a><br><br>
-    </p>
-  </th>
-
-
-</tr>
-
-</table>
----
-
-
 # Weiterführende Kurse
 
 
@@ -848,7 +820,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Explorative Datenanalyse mit R<br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/1.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Mar 4-5,<br>2022</high><br><br><br><br>
+      <high>Okt 13-14,<br>2023</high><br><br><br><br>
     </p>
   </td>
   <td>
@@ -857,7 +829,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Statistik mit R<br><br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/2.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Apr 22-23,<br>2022</high><br><br><br><br>
+      <high>Dec 1-2,<br>2023</high><br><br><br><br>
       </a>
     </p>
   </td>
@@ -867,7 +839,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Maschinelles Lernen mit R<br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/3.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Mai 13-14,<br>2022</high><br><br><br><br>
+      <high>tba</high><br><br><br><br>
       </a>
     </p>
   </td>
@@ -877,7 +849,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Reporting mit R<br><br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/4.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Jun 10<br>2022</high><br><br><br><br>
+      <high>tba</high><br><br><br><br>
       </a>
     </p>
   </td>
@@ -900,7 +872,8 @@ Das Netz ist vll. der beste Ort für Informationen über R.
 .pull-right45[
 
 <p align="center"><br><br>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfQ0smc25FL4IpNqi52gtdGG5zeozqSiNuxymtcuKRCbUtiFA/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoOFbnEebwvKpt9gJl7Pr68jPVGYP7FRBgrJus-QvGfRTWPA/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+
 
 ]
 
